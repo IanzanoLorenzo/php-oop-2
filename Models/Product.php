@@ -4,7 +4,8 @@
         protected $price;
         public $image;
         public $madeFor;
-        function __construct($name, $image, $madeFor) {
+        
+        function __construct($name, $image, Animal $madeFor) {
             $this->name = $name;
             $this->image = $image;
             $this->madeFor = $madeFor;
